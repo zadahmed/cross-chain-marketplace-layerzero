@@ -27,9 +27,9 @@ npx solhint 'contracts/**/*.sol' --fix
 
 # Contract Addresses
 
-NFT Contract Address on Fuji - 0x3F335A54C5127C6620a835B3CB5130E67d26bbcb
-Explorer - https://testnet.snowtrace.io/address/0x3F335A54C5127C6620a835B3CB5130E67d26bbcb
+NFT Contract Address on Fuji - 0xb4df72B301340f09E818a02325C781d318904d3F
+Explorer - https://testnet.snowtrace.io/address/0xb4df72B301340f09E818a02325C781d318904d3F
 
 
-Test Marketplace Contract Addesseses on Rinkebey - 0x478e02c9704591AEAb96c9960c7B94028c65A481
-Explorer - https://rinkeby.etherscan.io/address/0x478e02c9704591AEAb96c9960c7B94028c65A481
+Test Marketplace Contract Addesseses on Rinkebey - 0xe299c08d4AFdA3AB428E47A9bB876661a5762BA7
+Explorer - https://rinkeby.etherscan.io/address/0xe299c08d4AFdA3AB428E47A9bB876661a5762BA7

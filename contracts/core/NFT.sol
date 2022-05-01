@@ -9,5 +9,12 @@ import "../LZ/UniversalONFT721.sol";
 ///  Each contract deployed to a chain should carefully set a `_startMintIndex` and a `_maxMint`
 ///  value to set a range of allowed mintable nftIds (so that no two chains can mint the same id!)
 contract TestNFT is UniversalONFT721 {
-    constructor(address _layerZeroEndpoint, uint _startMintId, uint _endMintId) UniversalONFT721("ExampleUniversalONFT721", "ONFT721", _layerZeroEndpoint, _startMintId, _endMintId) {}
+
+    uint public counter;
+
+    function _nonblockingLzReceive(uint16, bytes memory, uint64, bytes memory) internal override {
+        counter += 1;
+    }
+
+    constructor(string memory _name, string memory _symbol, address _layerZeroEndpoint, uint _startMintId, uint _endMintId) UniversalONFT721(_name,_symbol, _layerZeroEndpoint, _startMintId, _endMintId) {}
 }
