@@ -6,7 +6,7 @@ import "../interfaces/ILayerZeroEndpoint.sol";
 import "../interfaces/ILayerZeroReceiver.sol";
 import "hardhat/console.sol";
 
-contract LayerZeroDemo1 is ILayerZeroReceiver {
+contract TestMarketplace is ILayerZeroReceiver {
 
     event ReceiveMsg(
         uint16 _srcChainId,
