@@ -39,6 +39,6 @@ contract TestMarketplace is NonblockingLzApp {
     }
 
     function incrementCounter(uint16 _dstChainId) public payable {
-        _lzSend(_dstChainId, bytes("Hello"), payable(msg.sender), 0xb4df72B301340f09E818a02325C781d318904d3F, bytes(""));
+        _lzSend(_dstChainId, bytes("Hello"), payable(msg.sender), 0x025EF5a2d6AF68E229fC9A49681a64ce0787D520, bytes(""));
     }
 }
